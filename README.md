@@ -83,3 +83,17 @@ If this is false, it will delete the image from the docker local storage on dest
 При keep_locally = false (значение по умолчанию) - Terraform удаляет образ из локального хранилища Docker при уничтожении ресурса. 
 При keep_locally = true (как в нашем случае) - Terraform прекращает управление образом, но оставляет его физически на диске.
  
+
+
+Задание 3*
+Установите opentofu(fork terraform с лицензией Mozilla Public License, version 2.0) любой версии
+Попробуйте выполнить тот же код с помощью tofu apply, а не terraform apply.
+
+
+Ответ:
+
+![Скриншот результата выполнения команды](https://github.com/Mazaich/terraform_homework/blob/main/Screenshot_2026-01-23_02_53_59.png?raw=true)
+![Скриншот результата выполнения команды](https://github.com/Mazaich/terraform_homework/blob/main/Screenshot_2026-01-23_02_48_11.png?raw=true)
+![Скриншот результата выполнения команды](https://github.com/Mazaich/terraform_homework/blob/main/Screenshot_2026-01-23_02_48_41.png?raw=true)
+![Скриншот результата выполнения команды](https://github.com/Mazaich/terraform_homework/blob/main/Screenshot_2026-01-23_02_49_35.png?raw=true)
+
